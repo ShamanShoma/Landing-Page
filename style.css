@@ -8,7 +8,7 @@ a {
     text-decoration: none;
 }
 
-ul, p, h1, h2 {
+figure, ul, p, h1, h2 {
     margin: 0;
     padding: 0;
 }
@@ -68,8 +68,8 @@ button {
 }
 
 .hero__wrapper {
-    padding-top: 100px;
-    height: 400px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     display: flex;
     justify-content: space-between;
 }
@@ -94,7 +94,7 @@ button {
 
 .hero__content-btn {
     background-color: #3882f6;
-    font-size: 18px;    
+    font-size: 18px;
     font-weight: 600;
     color: #e5e7eb;
 }
@@ -106,4 +106,43 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* INFO */
+
+.info__wrapper {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;
+}
+
+.info__title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.info__cards {
+    display: flex;
+    justify-content: center;
+    column-gap: 70px;
+}
+
+.info__card {
+    width: 150px;
+}
+
+.info__card-photo {
+    height: 150px;  
+    border: 4px solid #3882f6;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.info__card-desc {
+    text-align: center;
+    color: #495262;
 }
