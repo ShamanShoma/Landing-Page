@@ -1,2 +1,2 @@
 # Landing-Page
-[visit the site](shamanshoma.github.io/Landing-Page)
+[visit the site](https://shamanshoma.github.io/Landing-Page/)
