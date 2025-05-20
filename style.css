@@ -209,3 +209,21 @@ button {
     color: #f9faf8;
     border: 2px solid white;
 }
+
+/* FOOTER */
+
+.footer {
+    background-color: #1f2937;
+}
+
+.footer__wrapper {
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__wrapper-text {
+    font-size: 18px;
+    color: #f9faf8;
+}
